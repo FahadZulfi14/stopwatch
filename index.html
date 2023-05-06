@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+<!-- 
+        <video autoplay loop muted plays-inline class="bvideo">
+            <source src="Cars Driving Tunnel Road   Stock Video Footage.mp4" type="video/mp4">
+        </video> -->
+
+        <h1>StopWach</h1>
+        <p class="time">
+            <span id="minutes">00</span> : <span id="seconds">00</span> : <span id="miliSec">00</span>
+        </p>
+
+        <button id="Start" onclick="start()" onclick="disable(this)">Start</button>
+        <button id="Stop" onclick="stop()">Stop</button>
+        <button id="Reset" onclick="reset()">Reset</button>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
